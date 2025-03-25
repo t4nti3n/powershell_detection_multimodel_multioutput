@@ -1,0 +1,29 @@
+Invoke-Expression: Thực thi các chuỗi lệnh hoặc mã độc từ xa.
+
+Invoke-Command: Chạy các lệnh hoặc script trên các hệ thống từ xa.
+
+Start-Process: Khởi chạy các tiến trình mới, có thể là mã độc.
+
+New-Object: Tạo các đối tượng COM hoặc .NET, có thể được sử dụng để tải mã độc.
+
+Set-ExecutionPolicy: Thay đổi chính sách thực thi để cho phép chạy các script độc hại.
+
+Get-Content: Đọc nội dung của các file, có thể được sử dụng để lấy thông tin nhạy cảm.
+
+Add-Type: Biên dịch và chạy mã C# trong PowerShell, có thể được sử dụng để thực thi mã độc.
+
+DownloadString: Tải và thực thi mã từ các URL độc hại.
+
+Invoke-WebRequest: Tải nội dung từ web, có thể được sử dụng để tải mã độc.
+
+Invoke-RestMethod: Gửi yêu cầu HTTP và nhận phản hồi, có thể được sử dụng để giao tiếp với máy chủ điều khiển và kiểm soát (C2).
+
+Get-WmiObject: Truy vấn thông tin hệ thống, có thể được sử dụng để thu thập thông tin về mục tiêu.
+
+Out-File: Ghi dữ liệu ra file, có thể được sử dụng để lưu trữ thông tin nhạy cảm hoặc kết quả của các lệnh độc hại.
+
+Set-ItemProperty: Thay đổi thuộc tính của các đối tượng, có thể được sử dụng để thay đổi cấu hình hệ thống.
+
+New-Service: Tạo dịch vụ mới, có thể được sử dụng để duy trì quyền truy cập.
+
+Remove-Item: Xóa file hoặc thư mục, có thể được sử dụng để xóa dấu vết.
