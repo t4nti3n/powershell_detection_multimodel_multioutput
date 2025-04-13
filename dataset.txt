@@ -1,8 +1,0 @@
-dataset:
-link dùng được: 
-https://github.com/pan-unit42/iocs/blob/master/psencmds/README.md
-===========
-link 
-unit42: https://github.com/pan-unit42/iocs/tree/master/psencmds
-https://unit42.paloaltonetworks.com/unit42-pulling-back-the-curtains-on-encodedcommand-powershell-attacks/
-

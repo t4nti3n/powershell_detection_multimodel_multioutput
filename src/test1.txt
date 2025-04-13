@@ -1,3 +1,0 @@
-"\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"  -enc
-"\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"  -window
-"POWERSHELL.EXE -ExecutionPolicy"
