@@ -1,0 +1,6 @@
+[submodule "dataset_extra/Amsi-Bypass-Powershell"]
+	path = dataset_extra/Amsi-Bypass-Powershell
+	url = git@github.com:S3cur3Th1sSh1t/Amsi-Bypass-Powershell.git
+[submodule "dataset_extra/mpsd"]
+	path = dataset_extra/mpsd
+	url = git@github.com:das-lab/mpsd.git
