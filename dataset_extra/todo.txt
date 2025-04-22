@@ -1,5 +1,4 @@
-https://github.com/icyguider/PowerChunker/blob/main/bypass.ps1
-https://github.com/tihanyin/PSSW100AVB.git
+
 
 
 
