@@ -7,3 +7,6 @@
 [submodule "dataset_extra/Windows-Bypassing-Execution-Policy-Powershell-Script"]
 	path = dataset_extra/Windows-Bypassing-Execution-Policy-Powershell-Script
 	url = git@github.com:robertcanare/Windows-Bypassing-Execution-Policy-Powershell-Script.git
+[submodule "dataset_extra/Malicious-PowerShell-Dataset"]
+	path = dataset_extra/Malicious-PowerShell-Dataset
+	url = git@github.com:Fa2y/Malicious-PowerShell-Dataset.git
