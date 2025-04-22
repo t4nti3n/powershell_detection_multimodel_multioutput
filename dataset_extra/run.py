@@ -6,10 +6,10 @@ import requests
 from dotenv import load_dotenv
 
 # ===== Cấu hình =====
-input_dir = './mpsd/malicious_pure'
+input_dir = './mpsd/mixed_malicious'
 output_csv = './dataset/mpsd.csv'
-unknown_csv = './mpsd/label_unknown.csv'
-checkpoint_file = './mpsd/labeled_sha256.txt'
+unknown_csv = './checkpoint/mpsd/mpsd_label_unknown.csv'
+checkpoint_file = './checkpoint/mpsd/mpsd_checkpoint.txt'
 
 load_dotenv()
 api_keys = [os.getenv(f'api{i}') for i in range(1, 10) if os.getenv(f'api{i}')]
@@ -22,7 +22,7 @@ def map_label_from_vt(vt_name: str, categories: list) -> str:
     name = (vt_name or "").lower()
     cats = [c.lower() for c in categories] if categories else []
 
-    BYPASS_KEYWORDS = ['bypass', 'disable defender', 'evade', 'avoid', 'kill defender', 'anti-av']
+    BYPASS_KEYWORDS = ['bypass', 'disable defender', 'evade', 'avoid', 'kill defender', 'anti-av', 'bypass antivirus', 'bypass sandbox']
     TASKEXEC_KEYWORDS = ['schtask', 'task', 'scheduled', 'com', 'wmi', 'bitsadmin', 'bits', 'vb task', 'dynamite']
     DOWNLOADER_KEYWORDS = ['downloader', 'dropper', 'transfer', 'webdl', 'fetch', 'grabber', 'iexds', 'dfsp', 'curl', 'wget', 'powershellhttp']
     INJECTOR_KEYWORDS = ['inject', 'shellcode', 'reflective', 'pe loader', 'runpe', 'rhttp', 'remote dll', 'trojan', 'hollows', 'process hollowing']

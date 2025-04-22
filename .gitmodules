@@ -4,3 +4,6 @@
 [submodule "dataset_extra/mpsd"]
 	path = dataset_extra/mpsd
 	url = git@github.com:das-lab/mpsd.git
+[submodule "dataset_extra/Windows-Bypassing-Execution-Policy-Powershell-Script"]
+	path = dataset_extra/Windows-Bypassing-Execution-Policy-Powershell-Script
+	url = git@github.com:robertcanare/Windows-Bypassing-Execution-Policy-Powershell-Script.git
