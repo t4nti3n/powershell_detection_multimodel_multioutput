@@ -6,10 +6,10 @@ import requests
 from dotenv import load_dotenv
 
 # ===== Cấu hình =====
-input_dir = './Malicious-PowerShell-Dataset/triage_out'
-output_csv = './dataset/Malicious-PowerShell-Dataset_triage_out.csv'
-unknown_csv = './checkpoint/Malicious-PowerShell-Dataset/Malicious-PowerShell-Dataset_label_unknown_triage_out.csv'
-checkpoint_file = './checkpoint/Malicious-PowerShell-Dataset/Malicious-PowerShell-Dataset_checkpoint_triage_out.txt'
+input_dir = './Malicious-PowerShell-Dataset/malicious_samples'
+output_csv = './dataset/Malicious-PowerShell-Dataset_malicious_samples.csv'
+unknown_csv = './checkpoint/Malicious-PowerShell-Dataset/Malicious-PowerShell-Dataset_label_unknown_malicious_samples.csv'
+checkpoint_file = './checkpoint/Malicious-PowerShell-Dataset/Malicious-PowerShell-Dataset_checkpoint_malicious_samples.txt'
 
 load_dotenv()
 api_keys = [os.getenv(f'api{i}') for i in range(1, 10) if os.getenv(f'api{i}')]
