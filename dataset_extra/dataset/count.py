@@ -1,7 +1,7 @@
 import pandas as pd
 
 # ===== Cấu hình =====
-input_file = './Malicious-PowerShell-Dataset_bazaar_out.csv'  # hoặc label_unknown.csv, data_labeled.csv
+input_file = './Malicious-PowerShell-Dataset_triage_out.csv'  # hoặc label_unknown.csv, data_labeled.csv
 
 # ===== Đọc file CSV =====
 try:
