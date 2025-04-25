@@ -3,3 +3,9 @@
 
 # dotenv
 .env
+
+# csv file
+*.csv
+
+# checkpoint
+dataset_extra/checkpoint/
