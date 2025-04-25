@@ -9,3 +9,6 @@
 
 # checkpoint
 dataset_extra/checkpoint/
+
+# dataset
+dataset_extra/amsi_fail/Bypass/
