@@ -5,7 +5,7 @@
 .env
 
 # csv file
-*.csv
+**/*.csv
 
 # checkpoint
 dataset_extra/checkpoint/
