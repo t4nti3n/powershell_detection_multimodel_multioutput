@@ -1,0 +1,17 @@
+# dataset: mất cân bằng, không giống miêu tả trong paper
+solutions(in progress ) tìm kiếm nguồn khác các nguồn khác để combine
+
+#extrac feature: lựa chọn feature
+(in progress): dùng full PowerShell code để extract 
+
+#: tính đúng đắn của extractor : ast với token 
+
+# relac2vec, liên quan đến control flow grap: node và egde , phụ thuộc vào việc 
+
+# model : hyper parameter không có , chưa test 
+solutions: ( hyper parameter): 
+solutions: (model test)
+
+# length vector char2vec vượt 128 mặc dù đã fixed vector size: 128
+solutions: tính average cho vector, fixed 128 
+

